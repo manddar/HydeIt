@@ -6,6 +6,9 @@ url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
 
+# Custom configuration
+background-image: /public/background.jpg
+
 # About and contact
 author:
   name:           'Mark Otto'
