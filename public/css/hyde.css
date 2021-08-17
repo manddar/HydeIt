@@ -143,11 +143,8 @@ a.sidebar-nav-item:focus {
 }
 
 .content a {
-  text-decoration: underline 2em #feea99;
-  transition: text-decoration-color 300ms;
-  line-height: 1em;
-  display: inline-block;
-  color: #414042;
+  font-weight: bold;
+  color: #4a494b;
   padding: 0;
 }
 .content a strong {
@@ -156,7 +153,8 @@ a.sidebar-nav-item:focus {
 /* `:focus` is linked to `:hover` for basic accessibility */
 .content a:hover,
 .content a:focus {
-  text-decoration-color: rgba(0, 0, 0, 1);
+  text-decoration: underline 2em #fce38c;
+  transition: text-decoration-color 300ms;
 }
 
 @media (min-width: 48em) {
