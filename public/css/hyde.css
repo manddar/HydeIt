@@ -70,7 +70,7 @@ html {
     bottom: 0;
     width: 22rem;
     text-align: left;
-    background-image: url('{{ site.baseurl }}/public/background.jpg');
+    background-image: url('{{ site.baseurl }}public/background.jpg');
   }
 }
 
