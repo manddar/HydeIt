@@ -153,7 +153,9 @@ a.sidebar-nav-item:focus {
 /* `:focus` is linked to `:hover` for basic accessibility */
 .content a:hover,
 .content a:focus {
-  text-decoration: underline 2em #fce38c;
+  text-decoration: underline 0.5em #fce38c;
+  text-underline-offset: -0.5em;
+  text-decoration-skip-ink: none;
   transition: text-decoration-color 300ms;
 }
 
