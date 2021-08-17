@@ -32,12 +32,13 @@
  * Global resets
  *
  * Update the foundational and global aspects of the page.
- * font-family: 'Fira Sans', sans-serif;
- * font-family: 'Merriweather', serif;
+ * font-family: 'Inter', sans-serif;
+ * font-family: 'Open Sans', sans-serif;
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }
 @media (min-width: 48em) {
   html {
