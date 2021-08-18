@@ -8,7 +8,7 @@ permalink:        none
 # Setup
 title:            Hello!
 tagline:          'A Jekyll theme'
-description:      'A two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. 99% code taken from <a href="https://github.com/poole/hyde">Hyde</a> template made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Hyde-It is a two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. 99% code / design taken from <a href="https://github.com/poole/hyde">Hyde</a> template made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
@@ -22,6 +22,7 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-seo-tag
 
 # Custom vars
 version:          0.0.1
