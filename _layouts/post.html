@@ -5,7 +5,9 @@ layout: default
 <div class="post">
   <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   <span class="post-meta">{{ page.date | date_to_string }} , <a href="#">{{ page.category }}</a></span>
-  
+  {% if page.post-image %}
+  <img src="{{ page.post-image }}">
+  {% endif %}
   {{ content }}
 </div>
 

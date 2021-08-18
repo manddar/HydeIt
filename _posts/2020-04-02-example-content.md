@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 category: Example
+post-image: https://source.unsplash.com/random/800x400
 ---
 
 
@@ -90,9 +91,9 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](http://placehold.it/800x400 "Large example image")
-![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](http://placehold.it/200x200 "Small example image")
+![placeholder](https://source.unsplash.com/random/800x400 "Large example image")
+![placeholder](https://source.unsplash.com/random/400x200 "Medium example image")
+![placeholder](https://source.unsplash.com/random/200x200 "Small example image")
 
 ### Tables
 
