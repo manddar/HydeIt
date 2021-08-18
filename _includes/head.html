@@ -23,4 +23,19 @@
   <link rel="shortcut icon" href="{{ 'public/favicon.ico' | absolute_url }}">
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
+
+  <script src="{{ 'public/js/img_box.js' | absolute_url }}"></script>
+
+  <script>
+    window.onload=function (){
+      var images = document.getElementsByClassName("image");
+      for(var i=0;i<images.length;i++) {
+          images[i].addEventListener("click", imgClick.bind(images[i]), false);
+      }
+    }
+
+    function imgClick(el) {
+      img_box(el);
+    };
+  </script>
 </head>
