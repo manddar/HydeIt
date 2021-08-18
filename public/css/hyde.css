@@ -63,6 +63,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  background-image: url('{{ site.background-image }}');
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -72,7 +73,6 @@ html {
     bottom: 0;
     width: 22rem;
     text-align: left;
-    background-image: url('{{ site.background-image }}');
   }
 }
 
@@ -162,6 +162,11 @@ a.sidebar-nav-item:focus {
 .related h2 {
   font-family: 'Inter';
   margin-bottom: 0.8em;
+}
+
+.related-posts li a {
+  font-weight: bold;
+  color: #4a494b;
 }
 
 .related-posts li a:hover {
