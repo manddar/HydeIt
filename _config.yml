@@ -1,11 +1,18 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        none
+relative_permalinks: true
+
 # Setup
 title:            Hello!
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'A two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. 99% code taken from <a href="https://github.com/poole/hyde">Hyde</a> template made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
-permalink:        none
 
 # About and contact
 author:
@@ -19,4 +26,7 @@ plugins:
 
 # Custom vars
 version:          0.0.1
+github:
+  repo:           https://github.com/manddar/hyde-it
+
 background-image: /public/background.jpg
