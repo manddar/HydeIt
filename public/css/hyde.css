@@ -173,6 +173,10 @@ a.sidebar-nav-item:focus {
   margin-bottom: 0.8em;
 }
 
+.related-posts li h3{
+  font-family: 'Inter', sans-serif;
+}
+
 
 @media (min-width: 48em) {
   .content {
