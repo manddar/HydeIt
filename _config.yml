@@ -6,12 +6,27 @@ highlighter:      rouge
 permalink:        none
 
 # Setup
-title:            Hello!
+title:            HydeIt!
 tagline:          'A Jekyll theme'
-description:      'Hyde-It is a two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. 99% code / design taken from <a href="https://github.com/poole/hyde">Hyde</a> template made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+logo:             
+description:      'HydeIt is a two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. 99% code / design taken from <a href="https://github.com/poole/hyde">Hyde</a> template made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
+background-image: https://source.unsplash.com/featured/800x1200?dark-background
+
+# SEO
+twitter:
+  username: manddar
+  card: summary
+
+social:
+  name: Mandar Oak
+  links:
+    - https://twitter.com/mandar
+    - https://www.facebook.com/manddar
+    - https://www.linkedin.com/in/mandaroak/
+    - https://github.com/manddar
 
 # About and contact
 author:
@@ -27,6 +42,4 @@ plugins:
 # Custom vars
 version:          0.0.1
 github:
-  repo:           https://github.com/manddar/hyde-it
-
-background-image: /public/background.jpg
+  repo:           https://github.com/manddar/HydeIt
