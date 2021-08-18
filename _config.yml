@@ -5,6 +5,7 @@ description:      'A brazen two-column <a href="https://jekyllrb.com" target="_b
 url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
+permalink:        none
 
 # About and contact
 author:
