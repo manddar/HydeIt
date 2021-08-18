@@ -6,13 +6,10 @@ url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
 
-# Custom configuration
-background-image: /public/background.jpg
-
 # About and contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Mandar Oak'
+  url:            https://twitter.com/manddar
 
 # Gems
 plugins:
@@ -20,4 +17,5 @@ plugins:
   - jekyll-gist
 
 # Custom vars
-version:          3.0.0
+version:          0.0.1
+background-image: /public/background.jpg
