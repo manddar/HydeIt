@@ -51,6 +51,19 @@ html {
   }
 }
 
+a {
+  font-weight: bold;
+  color: #4a494b;
+  padding: 0;
+}
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline 0.5em #fce38c;
+  text-underline-offset: -0.5em;
+  text-decoration-skip-ink: none;
+}
+
 /*
  * Sidebar
  *
@@ -145,37 +158,11 @@ a.sidebar-nav-item:focus {
   font-family: 'Inter', sans-serif;
 }
 
-.content a {
-  font-weight: bold;
-  color: #4a494b;
-  padding: 0;
-}
-.content a strong {
-  color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-.content a:hover,
-.content a:focus {
-  text-decoration: underline 0.5em #fce38c;
-  text-underline-offset: -0.5em;
-  text-decoration-skip-ink: none;
-}
-
 .related h2 {
   font-family: 'Inter';
   margin-bottom: 0.8em;
 }
 
-.related-posts li a {
-  font-weight: bold;
-  color: #4a494b;
-}
-
-.related-posts li a:hover {
-  text-decoration: underline 0.5em #fce38c;
-  text-underline-offset: -0.5em;
-  text-decoration-skip-ink: none;
-}
 
 @media (min-width: 48em) {
   .content {
