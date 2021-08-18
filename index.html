@@ -12,9 +12,9 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-meta">{{ post.date | date_to_string }}</span>
+    <span class="post-meta">{{ post.date | date_to_string }} , <a href="#">{{ post.category }}</a></span>
 
-    {{ post.excerpt }}
+    {{ post.content }}
   </div>
   {% endfor %}
 </div>
