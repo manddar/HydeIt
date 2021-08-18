@@ -24,18 +24,4 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
-  <script src="{{ 'public/js/img_box.js' | absolute_url }}"></script>
-
-  <script>
-    window.onload=function (){
-      var images = document.getElementsByTagName("img");
-      for(var i=0;i<images.length;i++) {
-          images[i].addEventListener("click", imgClick(images[i]), false);
-      }
-    }
-
-    function imgClick(el) {
-      img_box(el);
-    };
-  </script>
 </head>
