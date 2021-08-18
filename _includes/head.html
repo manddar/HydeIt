@@ -30,11 +30,12 @@
     window.onload=function (){
       var images = document.getElementsByTagName("img");
       for(var i=0;i<images.length;i++) {
-          images[i].addEventListener("click", imgClick.bind(images[i]), false);
+          images[i].addEventListener("click", imgClick(this), false);
       }
     }
 
     function imgClick(el) {
+      alert(el);
       img_box(el);
     };
   </script>
