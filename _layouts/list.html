@@ -34,6 +34,7 @@ layout: page
     {% unless forloop.first %}</ul>{% endunless %}
     <h2 id="{{ list_group_by | slugify }}-{{ current_date | slugify }}" class="hr-bottom">{{ current_date }}</h2>
     <ul class="related-posts">
+        <li>{{ post.title }}</li>
     {% assign prev_date = current_date %}
   {% endif %}{% endunless %}
   {% if forloop.last %}</ul>{% endif %}
