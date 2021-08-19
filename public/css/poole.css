@@ -35,7 +35,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -48,8 +48,7 @@ body {
 }
 
 html {
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: 'Inter', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -370,10 +369,10 @@ tbody tr:nth-child(odd) th {
   font-size: 75%;
   color: #999;
 }
-/* .related-posts li a:hover {
+.related-posts li a:hover {
   color: #268bd2;
   text-decoration: none;
-} */
+}
 .related-posts li a:hover small {
   color: inherit;
 }
@@ -390,8 +389,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
