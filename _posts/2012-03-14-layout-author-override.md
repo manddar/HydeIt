@@ -15,11 +15,11 @@ To attribute an author to a post or page that is different from the site author 
 
 Billy Rick:
   name: "Billy Rick"
-  picture: "/images/bio-photo-2.jpg"
+  picture: "/public/images/bio-photo-2.jpg"
 
 Cornelius Fiddlebone:
   name: "Cornelius Fiddlebone"
-  picture: "/images/bio-photo.jpg"
+  picture: "/public/images/bio-photo.jpg"
 ```
 
 **Step 2.** Assign one of the authors in `authors.yml` to a post or page you wish to override the `site.author` with. 
