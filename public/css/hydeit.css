@@ -171,6 +171,12 @@ a.sidebar-nav-item:focus {
   margin-bottom: 0.8em;
 }
 
+.related-posts li a {
+  font-weight: bold;
+  color: #4a494b;
+  padding: 0;
+}
+
 .related-posts li a:hover {
   text-decoration: underline 0.5em #fce38c;
   text-underline-offset: -0.5em;
