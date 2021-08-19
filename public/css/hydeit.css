@@ -148,6 +148,15 @@ a.sidebar-nav-item:focus {
   font-size: 2.5rem;
 }
 
+.post-archive{
+  margin-bottom: 1em;
+}
+
+.post-archive-title a{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+}
+
 .post-meta {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
