@@ -171,6 +171,16 @@ a.sidebar-nav-item:focus {
   margin-bottom: 0.8em;
 }
 
+.related-posts li a:hover {
+  text-decoration: underline 0.5em #fce38c;
+  text-underline-offset: -0.5em;
+  text-decoration-skip-ink: none;
+}
+
+.related-posts li a:hover small {
+  color: inherit;
+}
+
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
