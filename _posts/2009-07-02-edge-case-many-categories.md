@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Edge Case: Many Categories"
 categories:
   - aciform

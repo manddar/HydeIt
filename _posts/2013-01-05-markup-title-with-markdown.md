@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Markup: Title *with* **Markdown**"
 categories:
   - Markdown

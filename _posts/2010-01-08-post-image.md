@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Post: Image"
 image: /public/images/so-simple-sample-image-3.jpg
 categories:

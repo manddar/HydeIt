@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Layout: Hero Image"
 image: 
   path: /public/images/so-simple-sample-image-3.jpg

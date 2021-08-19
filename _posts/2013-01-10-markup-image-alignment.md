@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Markup: Image Alignment"
 image: 
   path: /public/images/so-simple-sample-image-5.jpg

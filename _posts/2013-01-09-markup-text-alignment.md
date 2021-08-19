@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Markup: Text Alignment and Transformations"
 categories:
   - Markup
