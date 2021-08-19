@@ -179,6 +179,7 @@ a.sidebar-nav-item:focus {
 
 .related-posts li a:hover {
   text-decoration: underline 0.5em #fce38c;
+  color: #4a494b;
   text-underline-offset: -0.5em;
   text-decoration-skip-ink: none;
 }
