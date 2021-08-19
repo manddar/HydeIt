@@ -5,10 +5,6 @@ tags:
   - table of contents
 ---
 
-Enable table of contents on post or page by adding `{%raw %}{% include toc %}{% endraw %}` where you'd like it to appear.
-
-{% include toc %}
-
 ## HTML Elements
 
 Below is are some HTML elements. Check the source code to see the many embedded elements within paragraphs.
