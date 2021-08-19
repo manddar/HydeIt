@@ -13,7 +13,7 @@ description:      'HydeIt is a two-column <a href="https://jekyllrb.com" target=
 url:              https://mandar-me.vercel.app
 baseurl:          /
 paginate:         5
-background-image: https://source.unsplash.com/featured/800x1200?dark-background
+background-image: /public/background.jpg
 
 # SEO
 twitter:
