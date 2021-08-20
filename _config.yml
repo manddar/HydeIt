@@ -13,7 +13,9 @@ description:      'HydeIt is a two-column <a href="https://jekyllrb.com" target=
 url:              https://hydeit.vercel.app
 baseurl:          /
 paginate:         5
-background-image: /public/background.jpg
+background_image: /public/background.jpg
+# Google tag Manager tag for analytics
+google_tag:       G-V9F7ZH1J24
 
 # SEO
 twitter:
