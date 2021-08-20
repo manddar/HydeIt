@@ -2,7 +2,7 @@
 layout: post
 title: "Post: Twitter Embed"
 categories:
-  - Media
+  - Post Formats
 tags:
   - content
   - embeds

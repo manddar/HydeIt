@@ -6,10 +6,8 @@ image:
   path: /public/images/so-simple-sample-image-2.jpg
   thumbnail: /public/images/so-simple-sample-image-2-400x200.jpg
   caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
-tags: 
-  - sample post
-  - readability
-  - test
+categories:
+  - Markup
 last_modified_at: 2017-03-09T12:26:59-05:00
 ---
 
