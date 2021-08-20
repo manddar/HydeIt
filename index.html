@@ -14,8 +14,7 @@ title: Home
 
     <span class="post-meta">{{ post.date | date_to_string }} 
       {% for category in post.categories %}
-      <a href="{{site.baseurl}}categories.html#{{category}}"> , {{category}}</a>
-      <!-- {% unless forloop.last %}{% endunless %} -->
+       , <a href="{{site.baseurl}}categories.html#{{category}}">{{category}}</a>
       {% endfor %}
     </span>
 
