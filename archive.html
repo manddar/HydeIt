@@ -3,7 +3,7 @@ layout: default
 title: Archive
 ---
 
-<div class="posts">
+<!--<div class="posts">
   {% for post in site.posts %}
   <div class="post-archive">
     <h1 class="post-archive-title">
@@ -15,4 +15,13 @@ title: Archive
     <span class="post-meta">{{ post.date | date_to_string }} , <a href="#">{{ post.category }}</a></span>
   </div>
   {% endfor %}
-</div>
+</div>-->
+
+{% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
+  <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
