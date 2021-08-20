@@ -6,7 +6,7 @@ layout: default
   <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   <span class="post-meta">{{ page.date | date_to_string }}{% for category in page.categories %} , <a href="{{site.baseurl}}categories.html#{{category}}">{{category}}</a>{% endfor %}</span>
   {% if page.post-image %}
-  <img src="{{ page.post-image }}">
+  <img src="{{ page.image }}">
   {% endif %}
   {{ content }}
 </div>

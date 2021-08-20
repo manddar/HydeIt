@@ -2,7 +2,7 @@
 layout: post
 title: Example content
 category: Example
-post-image: https://source.unsplash.com/random/800x400
+image: https://source.unsplash.com/random/800x400
 ---
 
 
