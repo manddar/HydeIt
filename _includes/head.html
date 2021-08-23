@@ -3,6 +3,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <!-- Title -->
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -11,14 +12,17 @@
     {% endif %}
   </title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ 'public/css/poole.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ 'public/css/syntax.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ 'public/css/hydeit.css' | absolute_url }}">
 
+  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Open+Sans&display=swap" rel="stylesheet">
   
+  <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ 'public/icons/apple-touch-icon.png' | absolute_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ 'public/icons/favicon-32x32.png' | absolute_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ 'public/icons/favicon-16x16.png' | absolute_url }}">
@@ -26,13 +30,11 @@
   <link rel="shortcut icon" href="{{ 'public/icons/favicon.ico' | absolute_url }}">
   <link rel="manifest" href="{{ 'public/icons/site.webmanifest' | absolute_url }}">
 
+  <!-- Atom feed -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
-  {% if page.mathjax or page.title == "Home" %}
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  {% endif %}
-
-  {% if site.google_tag %}<!-- Global site tag (gtag.js) - Google Analytics -->
+  {% if site.google_tag %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9F7ZH1J24"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

@@ -14,6 +14,7 @@ url:              https://hydeit.vercel.app
 baseurl:          /
 paginate:         5
 background_image: /public/background.jpg
+
 # Google tag Manager tag for analytics
 google_tag:       G-V9F7ZH1J24
 
@@ -22,6 +23,7 @@ twitter:
   username: manddar
   card: summary
 
+# Social
 social:
   name: Mandar Oak
   links:
@@ -30,7 +32,7 @@ social:
     - https://www.linkedin.com/in/mandaroak/
     - https://github.com/manddar
 
-# About and contact
+# Author
 author:
   name:           'Mandar Oak'
   url:            https://twitter.com/manddar
@@ -41,7 +43,6 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
 
-# Custom vars
 version:          0.0.1
 github:
   repo:           https://github.com/manddar/HydeIt
