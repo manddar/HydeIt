@@ -3,7 +3,7 @@ layout: post
 title: Example Content II
 description: >
   A page showing how regular markdown content is styled in HydeIt.
-image: /public/images/HydeIt.png
+image: /public/images/featured-image.jpg
 categories:
   - HydeIt
 ---

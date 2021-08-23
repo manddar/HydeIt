@@ -36,7 +36,7 @@
   <!-- Dyamic styles -->
   <style>
     .sidebar {
-      {{% if page.image %}}background-image: url('{{ page.image }}');{{% elseif %}}background-image: url('{{ site.background_image }}');{{% endif %}}
+      {{% if page.image %}}background-image: url('{{ page.image }}');{{% else %}}background-image: url('{{ site.background_image }}');{{% endif %}}
     }
   </style>
 
