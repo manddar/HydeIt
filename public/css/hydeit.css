@@ -69,7 +69,11 @@ a:focus {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
+  {{% if page.image %}}
+  background-image: url('{{ page.image }}');
+  {{% elseif %}}
   background-image: url('{{ site.background_image }}');
+  {{% endif %}}
 }
 
 @media (min-width: 48em) {

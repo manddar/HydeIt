@@ -3,7 +3,7 @@ layout: post
 title: Example Content III
 description: >
   A page showing HydeIt-specific markdown content.
-image: /assets/img/blog/example-content-iii.jpg
+image: /public/images/HydeIt.png
 categories:
   - HydeIt
 mathjax: true
