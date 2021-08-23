@@ -33,6 +33,13 @@
   <!-- Atom feed -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
+  <!-- Dyamic styles -->
+  <style>
+    .sidebar {
+      {{% if page.image %}}background-image: url('{{ page.image }}');{{% elseif %}}background-image: url('{{ site.background_image }}');{{% endif %}}
+    }
+  </style>
+
   {% if site.google_tag %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9F7ZH1J24"></script>
