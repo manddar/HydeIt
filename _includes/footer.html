@@ -3,31 +3,28 @@
 -->
 <div id="img-modal-container" class="modal">
     <!-- The Close Button -->
-    <span class="close">&times;</span>
+    <span class="close" onclick="closeModal()">&times;</span>
 
     <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img-model">
+    <img class="modal-content" id="img-modal" onclick="closeModal()" />
 </div>
 
 <script>
     var modal = document.getElementById("img-modal-container");
     var modalImg = document.getElementById("img-modal");
 
-    window.openModal = function(img) {
-        alert(img);
+    window.openModal = function(event,param) {
         modal.style.display = "block";
-        modalImg.src = img.src;
+        modalImg.src = event.src;
     }
 
-    var images = document.querySelectorAll('img');
+    var images = document.querySelectorAll('img:not(img#img-modal)');
     for(var i=0, len = images.length; i < len; i++){
-        images[i].addEventListener('click', openModal);
+        param=images[i];
+        images[i].addEventListener('click', openModal.bind(event,param));
     }
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
+    function closeModal(){
         modal.style.display = "none";
     }
 </script>
