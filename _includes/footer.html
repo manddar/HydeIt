@@ -1,0 +1,22 @@
+
+<script>
+    window.openModal = function(img) {
+        alert(img);
+    }
+    var images = document.querySelectorAll('img');
+    for(var i=0, len = images.length; i < len; i++){
+        images[i].addEventListener('click', openModal);
+    }
+</script>
+
+{% if site.google_tag %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9F7ZH1J24"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_tag }}');
+    </script>
+{% endif %}
