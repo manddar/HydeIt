@@ -10,7 +10,7 @@ title:            HydeIt!
 tagline:          'A Jekyll theme'
 logo:             
 description:      'HydeIt is a two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. 99% code / design taken from <a href="https://github.com/poole/hyde">Hyde</a> template made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://hydeit.vercel.app
+url:              https://hydeit.xyz
 baseurl:          /
 paginate:         5
 background_image: /public/background.jpg
